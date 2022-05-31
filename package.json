@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/jleitz27/jest-another-RPG#readme",
   "devDependencies": {
+    "inquirer": "^7.0.3",
     "jest": "^28.1.0"
   }
 }
